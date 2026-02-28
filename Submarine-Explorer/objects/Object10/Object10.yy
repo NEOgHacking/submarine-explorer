@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oWaterbarier",
+  "%Name":"Object10",
   "eventList":[],
   "managed":true,
-  "name":"oWaterbarier",
+  "name":"Object10",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sInviible",
+    "path":"sprites/sInviible/sInviible.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
