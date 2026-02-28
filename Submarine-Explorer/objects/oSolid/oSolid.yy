@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oDockingship",
+  "%Name":"oSolid",
   "eventList":[],
   "managed":true,
-  "name":"oDockingship",
+  "name":"oSolid",
   "overriddenProperties":[],
   "parent":{
-    "name":"recources",
-    "path":"folders/Objects/recources.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDockingship",
-    "path":"sprites/sDockingship/sDockingship.yy",
+    "name":"sRock",
+    "path":"sprites/sRock/sRock.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
