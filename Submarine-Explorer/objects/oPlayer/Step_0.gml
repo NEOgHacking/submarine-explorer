@@ -14,11 +14,11 @@ if keyboard_check(vk_right) { // if the right arrow key is pressed
 
 if keyboard_check(vk_up) {
 
-    y_speed = float_speed;
+    y_speed = -float_speed;
 
 } else if keyboard_check(vk_down) {
 
-    y_speed = -float_speed;
+    y_speed = float_speed;
 
 }
 
