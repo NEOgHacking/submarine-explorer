@@ -1,0 +1,1 @@
+ore_type = "cobalt"

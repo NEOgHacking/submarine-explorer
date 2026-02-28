@@ -50,6 +50,7 @@
     {"id":{"name":"oMoney","path":"objects/oMoney/oMoney.yy",},},
     {"id":{"name":"oOre_parent","path":"objects/oOre_parent/oOre_parent.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"ore_counte","path":"objects/ore_counte/ore_counte.yy",},},
     {"id":{"name":"oRock","path":"objects/oRock/oRock.yy",},},
     {"id":{"name":"osmium","path":"objects/osmium/osmium.yy",},},
     {"id":{"name":"oxystone_burner","path":"objects/oxystone_burner/oxystone_burner.yy",},},

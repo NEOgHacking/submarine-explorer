@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"lavastone",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"ore_counte",
+  "eventList":[],
   "managed":true,
-  "name":"lavastone",
+  "name":"ore_counte",
   "overriddenProperties":[],
   "parent":{
-    "name":"ores",
-    "path":"folders/Objects/ores.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
-  "parentObjectId":{
-    "name":"oOre_parent",
-    "path":"objects/oOre_parent/oOre_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
