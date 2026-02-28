@@ -11,7 +11,14 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"buy","folderPath":"folders/Objects/buy.yy","name":"buy","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"items","folderPath":"folders/Objects/items.yy","name":"items","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ores","folderPath":"folders/Objects/ores.yy","name":"ores","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"recources","folderPath":"folders/Objects/recources.yy","name":"recources","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"states","folderPath":"folders/Objects/states.yy","name":"states","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"upgrades","folderPath":"folders/Objects/upgrades.yy","name":"upgrades","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"scripts","folderPath":"folders/scripts.yy","name":"scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"recources","folderPath":"folders/scripts/recources.yy","name":"recources","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"recource sprites","folderPath":"folders/Sprites/recource sprites.yy","name":"recource sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -20,7 +27,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"Submarine-Explorer",
   "resources":[
@@ -31,6 +38,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oRock","path":"objects/oRock/oRock.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"money_system","path":"scripts/money_system/money_system.yy",},},
     {"id":{"name":"sAir","path":"sprites/sAir/sAir.yy",},},
     {"id":{"name":"sFuel","path":"sprites/sFuel/sFuel.yy",},},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},},
