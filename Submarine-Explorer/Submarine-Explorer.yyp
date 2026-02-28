@@ -25,6 +25,7 @@
   "name":"Submarine-Explorer",
   "resources":[
     {"id":{"name":"oAir","path":"objects/oAir/oAir.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oFuel","path":"objects/oFuel/oFuel.yy",},},
     {"id":{"name":"oHealth","path":"objects/oHealth/oHealth.yy",},},
     {"id":{"name":"oMoney","path":"objects/oMoney/oMoney.yy",},},
