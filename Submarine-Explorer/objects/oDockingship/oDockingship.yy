@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oCamera",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oDockingship",
+  "eventList":[],
   "managed":true,
-  "name":"oCamera",
+  "name":"oDockingship",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sDockingship",
+    "path":"sprites/sDockingship/sDockingship.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
