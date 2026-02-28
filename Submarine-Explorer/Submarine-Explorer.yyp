@@ -24,6 +24,7 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sRock","path":"sprites/sRock/sRock.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
