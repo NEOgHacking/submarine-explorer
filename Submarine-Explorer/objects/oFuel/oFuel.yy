@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sFuel",
+    "path":"sprites/sFuel/sFuel.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
