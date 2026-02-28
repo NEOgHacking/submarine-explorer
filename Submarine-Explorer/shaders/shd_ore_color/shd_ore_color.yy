@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_ore_color",
+  "name":"shd_ore_color",
+  "parent":{
+    "name":"ores",
+    "path":"folders/sprites/ores.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
