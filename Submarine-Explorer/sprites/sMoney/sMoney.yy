@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"recource sprites",
-    "path":"folders/Sprites/recource sprites.yy",
+    "path":"folders/sprites/recource sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
