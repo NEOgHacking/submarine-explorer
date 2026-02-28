@@ -32,15 +32,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oRock","path":"objects/oRock/oRock.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"sDockingship","path":"sprites/sDockingship/sDockingship.yy",},},
-=======
-    {"id":{"name":"money_system","path":"scripts/money_system/money_system.yy",},},
-    {"id":{"name":"sAir","path":"sprites/sAir/sAir.yy",},},
-    {"id":{"name":"sDockingship","path":"sprites/sDockingship/sDockingship.yy",},},
-    {"id":{"name":"sFuel","path":"sprites/sFuel/sFuel.yy",},},
-    {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"sMoney","path":"sprites/sMoney/sMoney.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sRock","path":"sprites/sRock/sRock.yy",},},
