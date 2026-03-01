@@ -1,0 +1,1 @@
+alpha = min(alpha + fade_speed, 0.7);

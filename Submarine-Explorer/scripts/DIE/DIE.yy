@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DIE",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DIE",
+  "parent":{
+    "name":"states",
+    "path":"folders/Objects/states.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

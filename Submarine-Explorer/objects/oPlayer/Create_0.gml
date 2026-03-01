@@ -10,3 +10,9 @@ deceleration_speed = 0.01;
 float_speed = 0.08;
 
 image_speed = 0;
+
+max_oxygen = 100;
+oxygen = max_oxygen;
+
+oxygen_drain = 0.05; // per step (~3 per second at 60 FPS)
+alive = true;

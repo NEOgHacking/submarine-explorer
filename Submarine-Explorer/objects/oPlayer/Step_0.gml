@@ -77,3 +77,14 @@ if(x_speed > 0) {
 }
 //collision
 move_and_collide(x_speed, y_speed, oSolid)
+
+if (alive)
+{
+    oxygen -= oxygen_drain;
+    oxygen = max(oxygen, 0);
+
+    if (oxygen <= 0)
+    {
+        die();
+    }
+}
