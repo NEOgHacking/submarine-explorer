@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Barier",
+  "%Name":"ore_counte",
   "eventList":[],
   "managed":true,
-  "name":"Barier",
+  "name":"ore_counte",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
   "parentObjectId":{
     "name":"oSolid",
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sInvisible",
-    "path":"sprites/sInvisible/sInvisible.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
