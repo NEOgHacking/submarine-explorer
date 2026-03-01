@@ -31,7 +31,6 @@
   },
   "name":"Submarine-Explorer",
   "resources":[
-    {"id":{"name":"death","path":"objects/death/death.yy",},},
     {"id":{"name":"low_air","path":"objects/low_air/low_air.yy",},},
     {"id":{"name":"oAir","path":"objects/oAir/oAir.yy",},},
     {"id":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},},
