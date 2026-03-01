@@ -1,0 +1,96 @@
+var move_x = 0;
+var move_y = 0;
+
+
+if keyboard_check(ord("E")){
+	ore_x = x + lengthdir_x(50, image_angle)
+	ore_y = y + lengthdir_y(50, image_angle)
+	
+	ore = instance_position(ore_x, ore_y, oRock)
+	object_set_visible(ore, false)
+	
+	drill_time_change += 1;
+	
+	if drill_time_change > drill_animation_time{
+		drill_time_change = 0
+		if sprite_index == sPlayer{
+			sprite_index = Sprite6
+		} else {
+			sprite_index = sPlayer
+		}
+	}
+}
+
+
+if keyboard_check(vk_right) { // if the right arrow key is pressed
+	
+	//motion_x(1);
+    x_speed = min(x_speed + acceleration_speed, max_movement_speed)
+	image_xscale = -1;
+
+} else if keyboard_check(vk_left) { // otherwise, if the left arrow key is pressed
+
+    x_speed = max(x_speed - acceleration_speed, -max_movement_speed);
+	image_xscale = 1;
+
+} else {
+	if x_speed > 0{
+		x_speed = max(0, x_speed - 0.1)
+	} else if x_speed < 0{
+		x_speed = min(0, x_speed + 0.1)
+	}
+}
+
+
+if (keyboard_check(vk_up) & keyboard_check(vk_down)) {
+	move_y = 0;
+} else if (keyboard_check(vk_up)) {
+	move_y = -1;
+} else if (keyboard_check(vk_down)) {
+	move_y = 1;
+} else {
+	move_y = 0;
+}
+
+
+
+//gamepad support
+if (array_length(gamepads) > 0)
+{
+    move_x = gamepad_axis_value(gamepads[0], gp_axislh);
+    move_y = gamepad_axis_value(gamepads[0], gp_axislv);
+}
+
+//movement calculations with accel
+
+//x movement
+if(move_x > 0) {
+	x_speed = min(x_speed + acceleration_speed * move_x, max_movement_speed);
+} else if(move_x < 0) {
+	x_speed = max(x_speed + acceleration_speed * move_x, -max_movement_speed);
+} else {
+	if x_speed > 0{
+		x_speed = max(0, x_speed - deceleration_speed)
+	} else if x_speed < 0{
+		x_speed = min(0, x_speed + deceleration_speed)
+	}
+}
+
+
+//y movement
+if(move_y != 0) {
+	var y_new_speed = y_speed + acceleration_speed * move_y;
+	if(abs(y_new_speed) <= max_movement_speed) { //if new speed is under or equal to max speed than update the speed.
+		y_speed	= y_new_speed;
+	}
+} else {
+	//if (y_speed > 0) {
+	//	y_speed = max(0, y_speed - deceleration_speed)
+	//} else if (x_speed < 0) {
+	//	y_speed = min(0, y_speed + deceleration_speed)
+	//}
+	y_speed = 0;
+}
+
+//collision
+move_and_collide(x_speed, y_speed, oSolid)
