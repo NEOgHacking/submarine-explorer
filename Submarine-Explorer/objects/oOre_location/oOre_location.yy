@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"gold",
+  "%Name":"oOre_location",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"gold",
+  "name":"oOre_location",
   "overriddenProperties":[],
   "parent":{
-    "name":"ores",
-    "path":"folders/Objects/ores.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sgold",
-    "path":"sprites/sgold/sgold.yy",
+    "name":"sOre",
+    "path":"sprites/sOre/sOre.yy",
   },
   "spriteMaskId":null,
   "visible":true,
