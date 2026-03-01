@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oShop",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Barier",
+  "eventList":[],
   "managed":true,
-  "name":"oShop",
+  "name":"Barier",
   "overriddenProperties":[],
   "parent":{
-    "name":"buy",
-    "path":"folders/Objects/buy.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolid",
+    "path":"objects/oSolid/oSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sInvisible",
+    "path":"sprites/sInvisible/sInvisible.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

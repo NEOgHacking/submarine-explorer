@@ -1,1 +1,1 @@
-ore_type = ORE.GOLD
+ore_type = "gold"

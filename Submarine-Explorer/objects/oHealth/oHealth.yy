@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"diamond",
+  "%Name":"oHealth",
   "eventList":[],
   "managed":true,
-  "name":"diamond",
+  "name":"oHealth",
   "overriddenProperties":[],
   "parent":{
-    "name":"ores",
-    "path":"folders/Objects/ores.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sDiamond",
-    "path":"sprites/sDiamond/sDiamond.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,1 +1,0 @@
-interact_range = 64; // distance in pixels
