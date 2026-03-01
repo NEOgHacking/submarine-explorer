@@ -2,29 +2,29 @@ var move_x = 0;
 var move_y = 0;
 
 
-if (keyboard_check(global.key_mine) || gamepad_button_check(0, gp_face1)){
+if (keyboard_check(ord("E")) || gamepad_button_check(0, gp_face1)){
 	image_speed = 1;
 } else {
 	image_speed = 0;
 }
 
 
-if (keyboard_check(global.key_left) && keyboard_check(global.key_right)) {
+if (keyboard_check(vk_left) && keyboard_check(vk_right)) {
 	move_x = 0;
-} else if (keyboard_check(global.key_left)) {
+} else if (keyboard_check(vk_left)) {
 	move_x = -1;
-} else if (keyboard_check(global.key_right)) {
+} else if (keyboard_check(vk_right)) {
 	move_x = 1;
 } else {
 	move_x = 0;
 }
 
 
-if (keyboard_check(global.key_up) && keyboard_check(global.key_down)) {
+if (keyboard_check(vk_up) && keyboard_check(vk_down)) {
 	move_y = 0;
-} else if (keyboard_check(global.key_up)) {
+} else if (keyboard_check(vk_up)) {
 	move_y = -1;
-} else if (keyboard_check(global.key_down)) {
+} else if (keyboard_check(vk_down)) {
 	move_y = 1;
 } else {
 	move_y = 0;
@@ -77,3 +77,9 @@ if(x_speed > 0) {
 }
 //collision
 move_and_collide(x_speed, y_speed, oSolid)
+
+
+
+if (keyboard_check(vk_escape)) {
+	room_goto(Start_screen);
+}
