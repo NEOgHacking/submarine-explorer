@@ -19,16 +19,20 @@ if keyboard_check(ord("E")){
 
 if keyboard_check(vk_right) { // if the right arrow key is pressed
 
-    x_speed = max(x_speed + movement_speed,-1.5)
+    x_speed = max(x_speed + movement_speed,-0.8)
 	image_xscale = -1;
 
 } else if keyboard_check(vk_left) { // otherwise, if the left arrow key is pressed
 
-    x_speed = min(x_speed - movement_speed, 1.5);
+    x_speed = min(x_speed - movement_speed, 0.8);
 	image_xscale = 1;
 
 } else {
-	x_speed = 0;
+	if x_speed > 0{
+		x_speed = max(0, x_speed - 0.1)
+	} else if x_speed < 0{
+		x_speed = min(0, x_speed + 0.1)
+	}
 }
 
 

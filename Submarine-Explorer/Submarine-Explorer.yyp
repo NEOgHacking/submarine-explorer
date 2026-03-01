@@ -24,8 +24,8 @@
   },
   "name":"Submarine-Explorer",
   "resources":[
+    {"id":{"name":"Barier","path":"objects/Barier/Barier.yy",},},
     {"id":{"name":"oAir","path":"objects/oAir/oAir.yy",},},
-    {"id":{"name":"Object10","path":"objects/Object10/Object10.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oDockingship","path":"objects/oDockingship/oDockingship.yy",},},
     {"id":{"name":"oFuel","path":"objects/oFuel/oFuel.yy",},},
