@@ -2,14 +2,14 @@ var move_x = 0;
 var move_y = 0;
 
 
-if (keyboard_check(ord("E"))){
+if (keyboard_check(ord("E")) || gamepad_button_check(0, gp_face1)){
 	image_speed = 1;
 } else {
 	image_speed = 0;
 }
 
 
-if (keyboard_check(vk_left) & keyboard_check(vk_right)) {
+if (keyboard_check(vk_left) && keyboard_check(vk_right)) {
 	move_x = 0;
 } else if (keyboard_check(vk_left)) {
 	move_x = -1;
@@ -20,7 +20,7 @@ if (keyboard_check(vk_left) & keyboard_check(vk_right)) {
 }
 
 
-if (keyboard_check(vk_up) & keyboard_check(vk_down)) {
+if (keyboard_check(vk_up) && keyboard_check(vk_down)) {
 	move_y = 0;
 } else if (keyboard_check(vk_up)) {
 	move_y = -1;
