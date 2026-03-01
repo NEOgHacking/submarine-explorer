@@ -27,7 +27,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"Submarine-Explorer",
   "resources":[
@@ -60,8 +60,7 @@
     {"id":{"name":"sInvisible","path":"sprites/sInvisible/sInvisible.yy",},},
     {"id":{"name":"sIron","path":"sprites/sIron/sIron.yy",},},
     {"id":{"name":"sMoney","path":"sprites/sMoney/sMoney.yy",},},
-    {"id":{"name":"sPlayer1","path":"sprites/sPlayer1/sPlayer1.yy",},},
-    {"id":{"name":"sPlayer2","path":"sprites/sPlayer2/sPlayer2.yy",},},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sRock","path":"sprites/sRock/sRock.yy",},},
   ],
   "resourceType":"GMProject",
