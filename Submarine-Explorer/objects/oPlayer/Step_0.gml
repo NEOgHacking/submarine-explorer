@@ -9,10 +9,10 @@ if keyboard_check(ord("E")){
 	
 	if drill_time_change > drill_animation_time{
 		drill_time_change = 0
-		if sprite_index == sPlayer{
-			sprite_index = Sprite6
+		if sprite_index == sPlayer1{
+			sprite_index = sPlayer2
 		} else {
-			sprite_index = sPlayer
+			sprite_index = sPlayer1
 		}
 	}
 }

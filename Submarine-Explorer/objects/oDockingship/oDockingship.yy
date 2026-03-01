@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Barier",
+  "%Name":"oDockingship",
   "eventList":[],
   "managed":true,
-  "name":"Barier",
+  "name":"oDockingship",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sDockingship",
+    "path":"sprites/sDockingship/sDockingship.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

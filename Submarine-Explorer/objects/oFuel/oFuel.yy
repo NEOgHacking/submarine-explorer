@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Barier",
+  "%Name":"oFuel",
   "eventList":[],
   "managed":true,
-  "name":"Barier",
+  "name":"oFuel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
