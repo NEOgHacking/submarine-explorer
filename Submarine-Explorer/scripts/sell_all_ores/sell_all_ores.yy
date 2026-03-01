@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sell_all_ores",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sell_all_ores",
+  "parent":{
+    "name":"buy",
+    "path":"folders/Objects/buy.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

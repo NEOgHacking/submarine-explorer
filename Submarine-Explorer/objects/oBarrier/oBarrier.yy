@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"diamond",
+  "%Name":"oBarrier",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"diamond",
+  "name":"oBarrier",
   "overriddenProperties":[],
   "parent":{
-    "name":"ores",
-    "path":"folders/Objects/ores.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolid",
+    "path":"objects/oSolid/oSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDiamond",
-    "path":"sprites/sDiamond/sDiamond.yy",
+    "name":"sBarrier",
+    "path":"sprites/sBarrier/sBarrier.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
