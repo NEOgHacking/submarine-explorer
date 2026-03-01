@@ -9,7 +9,10 @@
     "name":"recources",
     "path":"folders/Objects/recources.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolid",
+    "path":"objects/oSolid/oSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
