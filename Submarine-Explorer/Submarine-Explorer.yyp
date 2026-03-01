@@ -24,11 +24,10 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"Submarine-Explorer",
   "resources":[
-    {"id":{"name":"death","path":"objects/death/death.yy",},},
     {"id":{"name":"diamond","path":"objects/diamond/diamond.yy",},},
     {"id":{"name":"gold","path":"objects/gold/gold.yy",},},
     {"id":{"name":"iron","path":"objects/iron/iron.yy",},},
@@ -36,6 +35,7 @@
     {"id":{"name":"oAir","path":"objects/oAir/oAir.yy",},},
     {"id":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
+    {"id":{"name":"oDeath_screen","path":"objects/oDeath_screen/oDeath_screen.yy",},},
     {"id":{"name":"oDockingship","path":"objects/oDockingship/oDockingship.yy",},},
     {"id":{"name":"oMoney","path":"objects/oMoney/oMoney.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -46,6 +46,7 @@
     {"id":{"name":"sub2","path":"objects/sub2/sub2.yy",},},
     {"id":{"name":"sub3","path":"objects/sub3/sub3.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"DIE","path":"scripts/DIE/DIE.yy",},},
     {"id":{"name":"sell_all_ores","path":"scripts/sell_all_ores/sell_all_ores.yy",},},
     {"id":{"name":"sAir","path":"sprites/sAir/sAir.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
