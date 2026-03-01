@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"iron",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"ore_counte",
+  "eventList":[],
   "managed":true,
-  "name":"iron",
+  "name":"ore_counte",
   "overriddenProperties":[],
   "parent":{
-    "name":"ores",
-    "path":"folders/Objects/ores.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
   "parentObjectId":null,
   "persistent":false,
