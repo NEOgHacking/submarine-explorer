@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Barier",
+  "%Name":"oBarrier",
   "eventList":[],
   "managed":true,
-  "name":"Barier",
+  "name":"oBarrier",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sInvisible",
-    "path":"sprites/sInvisible/sInvisible.yy",
+    "name":"sBarrier",
+    "path":"sprites/sBarrier/sBarrier.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
