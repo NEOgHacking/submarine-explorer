@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sDiamond",
+    "path":"sprites/sDiamond/sDiamond.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
