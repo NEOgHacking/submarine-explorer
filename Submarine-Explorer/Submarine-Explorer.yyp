@@ -54,7 +54,6 @@
     {"id":{"name":"sub1","path":"objects/sub1/sub1.yy",},},
     {"id":{"name":"sub2","path":"objects/sub2/sub2.yy",},},
     {"id":{"name":"sub3","path":"objects/sub3/sub3.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"DIE","path":"scripts/DIE/DIE.yy",},},
     {"id":{"name":"Ocean","path":"rooms/Ocean/Ocean.yy",},},
     {"id":{"name":"Start_screen","path":"rooms/Start_screen/Start_screen.yy",},},
