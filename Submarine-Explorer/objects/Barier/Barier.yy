@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sInviible",
-    "path":"sprites/sInviible/sInviible.yy",
+    "name":"sInvisible",
+    "path":"sprites/sInvisible/sInvisible.yy",
   },
   "spriteMaskId":null,
   "visible":true,

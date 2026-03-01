@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oDockingship",
+  "%Name":"death",
   "eventList":[],
   "managed":true,
-  "name":"oDockingship",
+  "name":"death",
   "overriddenProperties":[],
   "parent":{
-    "name":"recources",
-    "path":"folders/Objects/recources.yy",
+    "name":"states",
+    "path":"folders/Objects/states.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sDockingship",
-    "path":"sprites/sDockingship/sDockingship.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
