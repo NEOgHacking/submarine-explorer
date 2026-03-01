@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oRock",
+  "%Name":"ore_counte",
   "eventList":[],
   "managed":true,
-  "name":"oRock",
+  "name":"ore_counte",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"recources",
+    "path":"folders/Objects/recources.yy",
   },
   "parentObjectId":{
     "name":"oSolid",

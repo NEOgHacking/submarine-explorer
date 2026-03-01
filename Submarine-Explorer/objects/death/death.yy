@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oRock",
+  "%Name":"death",
   "eventList":[],
   "managed":true,
-  "name":"oRock",
+  "name":"death",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"states",
+    "path":"folders/Objects/states.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"sMoney",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d1966683-4fcb-46d2-9474-6a769eba5cfa","name":"d1966683-4fcb-46d2-9474-6a769eba5cfa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e769957-a9ee-4a1f-8484-4e54f48244af","name":"1e769957-a9ee-4a1f-8484-4e54f48244af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d208df02-2c61-419f-9a8f-f8b92dfe4839","blendMode":0,"displayName":"default","isLocked":false,"name":"d208df02-2c61-419f-9a8f-f8b92dfe4839","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2f736614-e76b-4a49-b7c7-b2b4d3aad231","blendMode":0,"displayName":"default","isLocked":false,"name":"2f736614-e76b-4a49-b7c7-b2b4d3aad231","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sMoney",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"recource sprites",
-    "path":"folders/Sprites/recource sprites.yy",
+    "path":"folders/sprites/recource sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d1966683-4fcb-46d2-9474-6a769eba5cfa","path":"sprites/sMoney/sMoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c0a2ac56-f07a-4c0a-9ccb-d733bcaab1d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e769957-a9ee-4a1f-8484-4e54f48244af","path":"sprites/sMoney/sMoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"66ca8876-19c8-4b10-98ab-4c85d38e6ee9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":16,
 }

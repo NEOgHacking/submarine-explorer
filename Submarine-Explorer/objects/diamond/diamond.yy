@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oRock",
+  "%Name":"diamond",
   "eventList":[],
   "managed":true,
-  "name":"oRock",
+  "name":"diamond",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ores",
+    "path":"folders/Objects/ores.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
