@@ -2,7 +2,10 @@ x_speed = 0;
 
 y_speed = 0; 
 
-movement_speed = 0.1; 
+max_movement_speed = 0.8; 
+
+acceleration_speed = 0.01;
+deceleration_speed = 0.01;
 
 float_speed = 0.08;
 
