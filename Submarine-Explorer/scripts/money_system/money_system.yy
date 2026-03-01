@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"money_system",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"money_system",
+  "parent":{
+    "name":"recources",
+    "path":"folders/scripts/recources.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
