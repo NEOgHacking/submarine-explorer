@@ -11,10 +11,7 @@
     "name":"ores",
     "path":"folders/Objects/ores.yy",
   },
-  "parentObjectId":{
-    "name":"oOre_parent",
-    "path":"objects/oOre_parent/oOre_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
