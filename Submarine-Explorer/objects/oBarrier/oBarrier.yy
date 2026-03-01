@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oFuel",
+  "%Name":"oBarrier",
   "eventList":[],
   "managed":true,
-  "name":"oFuel",
+  "name":"oBarrier",
   "overriddenProperties":[],
   "parent":{
-    "name":"recources",
-    "path":"folders/Objects/recources.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolid",
+    "path":"objects/oSolid/oSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sBarrier",
+    "path":"sprites/sBarrier/sBarrier.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
