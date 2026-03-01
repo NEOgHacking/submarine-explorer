@@ -22,23 +22,14 @@ if keyboard_check(ord("E")){
 }
 
 
-if keyboard_check(vk_right) { // if the right arrow key is pressed
-	
-	//motion_x(1);
-    x_speed = min(x_speed + acceleration_speed, max_movement_speed)
-	image_xscale = -1;
-
-} else if keyboard_check(vk_left) { // otherwise, if the left arrow key is pressed
-
-    x_speed = max(x_speed - acceleration_speed, -max_movement_speed);
-	image_xscale = 1;
-
+if (keyboard_check(vk_left) & keyboard_check(vk_right)) {
+	move_x = 0;
+} else if (keyboard_check(vk_left)) {
+	move_x = -1;
+} else if (keyboard_check(vk_right)) {
+	move_x = 1;
 } else {
-	if x_speed > 0{
-		x_speed = max(0, x_speed - 0.1)
-	} else if x_speed < 0{
-		x_speed = min(0, x_speed + 0.1)
-	}
+	move_x = 0;
 }
 
 
@@ -64,10 +55,11 @@ if (array_length(gamepads) > 0)
 //movement calculations with accel
 
 //x movement
-if(move_x > 0) {
-	x_speed = min(x_speed + acceleration_speed * move_x, max_movement_speed);
-} else if(move_x < 0) {
-	x_speed = max(x_speed + acceleration_speed * move_x, -max_movement_speed);
+if(move_x != 0) {
+	var x_new_speed = x_speed + acceleration_speed * move_x;
+	if(abs(x_new_speed) <= max_movement_speed) { //if new speed is under or equal to max speed than update the speed.
+		x_speed	= x_new_speed;
+	}
 } else {
 	if x_speed > 0{
 		x_speed = max(0, x_speed - deceleration_speed)
@@ -84,13 +76,17 @@ if(move_y != 0) {
 		y_speed	= y_new_speed;
 	}
 } else {
-	//if (y_speed > 0) {
-	//	y_speed = max(0, y_speed - deceleration_speed)
-	//} else if (x_speed < 0) {
-	//	y_speed = min(0, y_speed + deceleration_speed)
-	//}
-	y_speed = 0;
+	if (y_speed > 0) {
+		y_speed = max(0, y_speed - deceleration_speed)
+	} else if (y_speed < 0) {
+		y_speed = min(0, y_speed + deceleration_speed)
+	}
 }
 
+if(x_speed > 0) {
+	image_xscale = -1;
+}else if(x_speed < 0) {
+	image_xscale = 1;
+}
 //collision
 move_and_collide(x_speed, y_speed, oSolid)
