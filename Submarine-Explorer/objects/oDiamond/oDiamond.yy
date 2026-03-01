@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"iron",
+  "%Name":"oDiamond",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"iron",
+  "name":"oDiamond",
   "overriddenProperties":[],
   "parent":{
     "name":"ores",
     "path":"folders/Objects/ores.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oOre",
+    "path":"objects/oOre/oOre.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sIron",
-    "path":"sprites/sIron/sIron.yy",
+    "name":"sDiamond",
+    "path":"sprites/sDiamond/sDiamond.yy",
   },
   "spriteMaskId":null,
   "visible":true,

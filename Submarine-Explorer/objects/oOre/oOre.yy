@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oDockingship",
+  "%Name":"oOre",
   "eventList":[],
   "managed":true,
-  "name":"oDockingship",
+  "name":"oOre",
   "overriddenProperties":[],
   "parent":{
-    "name":"recources",
-    "path":"folders/Objects/recources.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"oSolid",
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sDockingship",
-    "path":"sprites/sDockingship/sDockingship.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

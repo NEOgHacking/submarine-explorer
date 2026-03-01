@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oDockingship",
-  "eventList":[],
+  "%Name":"oGold",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oDockingship",
+  "name":"oGold",
   "overriddenProperties":[],
   "parent":{
-    "name":"recources",
-    "path":"folders/Objects/recources.yy",
+    "name":"ores",
+    "path":"folders/Objects/ores.yy",
   },
   "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
+    "name":"oOre",
+    "path":"objects/oOre/oOre.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDockingship",
-    "path":"sprites/sDockingship/sDockingship.yy",
+    "name":"sgold",
+    "path":"sprites/sgold/sgold.yy",
   },
   "spriteMaskId":null,
   "visible":true,
